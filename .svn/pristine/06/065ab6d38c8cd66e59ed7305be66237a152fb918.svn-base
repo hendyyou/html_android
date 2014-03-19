@@ -1,0 +1,54 @@
+<div data-role="page" id="shopcart_channel_page" data-url="shopcart_channel_page">
+    <div data-role="header" data-position="fixed">
+        <h1>填写渠道编码</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+        <h2>温馨提示</h2>
+
+        <p>1、若您之前从未与电信结算过业务发展酬金,请与门店客服经理联系,办理相关手续。</p>
+
+        <p>2、为了更好的为您结算酬金，请提供门店相对应的渠道编码，若不清楚渠道编码请咨询门店服务经理！若不提供渠道编码可能会导致无法结算酬金！</p>
+
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <legend>
+                    <p></p>
+                    <label><strong>渠道编码：</strong></label>
+                </legend>
+                <p>
+                    <input id="shopcart_channel_id" name="shopcart_channel_id" type="text" value="">
+                </p>
+
+                <p>注：请正确填写，提交后不可自行修改。</p>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <legend>
+                    <p></p>
+                    <label><strong>备注信息：</strong></label>
+                </legend>
+                <p>
+                    <textarea cols="40" rows="8" name="shopcart_channel_remark" id="shopcart_channel_remark"></textarea>
+                </p>
+
+                <p>注：64个字以内，提交后不可自行修改。</p>
+            </fieldset>
+        </div>
+        <div>
+            <p>&nbsp</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#" id="shopcart_channel_commit" data-role="button" data-icon="check" data-iconpos="left">提交</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#" id="shopcart_channel_skip" data-role="button" data-icon="check" data-iconpos="left">跳过</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->

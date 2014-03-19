@@ -1,0 +1,26 @@
+<div data-role="page" id="more_feedback_page" data-url="more_feedback_page">
+    <div data-role="header" data-position="fixed">
+        <h1>意见反馈</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="more_feedback_type">反馈类型：</label>
+            <select name="more_feedback_type" id="more_feedback_type">
+                <option value="1">功能意见</option>
+                <option value="2">您的新需求</option>
+                <option value="3">操作意见</option>
+                <option value="4">其他</option>
+            </select>
+        </div>
+        <div>
+            <label for="more_feedback_content">反馈内容：</label>
+            <textarea cols="40" rows="8" name="more_feedback_content" id="more_feedback_content"></textarea>
+        </div>
+        <div>
+            <a href="#" id="more_feedback_create" data-role="button" data-icon="check" data-iconpos="left">提交</a>
+        </div>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->

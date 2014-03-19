@@ -1,0 +1,9 @@
+<div data-role="page" id="shopcart_ordersuccess_page" data-url="shopcart_ordersuccess_page">
+    <div data-role="header" data-position="fixed">
+        <h1>订单生成</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content" id="shopcart_ordersuccess_info_div"></div>
+    <!-- /content -->
+</div>
+<!-- /page -->

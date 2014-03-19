@@ -1,0 +1,57 @@
+<div data-role="page" id="workbench_orderdetail_page" data-url="workbench_allorder_page">
+    <div data-role="header" data-position="fixed">
+        <h1>订单详情</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+        <div>
+            <p>订单状态：
+                <span id="workbench_orderdetail_order_status"></span>&nbsp
+                <span id="workbench_orderdetail_pay_status"></span>
+            </p>
+
+            <p>订单编号：<span id="workbench_orderdetail_order_no"></span></p>
+        </div>
+        <div id="workbench_orderdetail_split_line1"></div>
+        <div>
+            <p>
+                <span class="order_price_info_title">+产品费用：</span>
+                <span id="workbench_orderdetail_product_price"></span>
+            </p>
+
+            <p>
+                <span class="order_price_info_title">-优惠：</span>
+                <span id="workbench_orderdetail_act_price"></span>
+            </p>
+
+            <p>
+                <span class="order_price_info_title">+运费：</span>
+                <span id="workbench_orderdetail_trans_cost"></span>
+            </p>
+
+            <p>
+                <span class="order_price_info_title">+订单金额：</span>
+                <span id="workbench_orderdetail_order_amount"></span>
+            </p>
+        </div>
+        <div id="workbench_orderdetail_split_line2"></div>
+        <div id="workbench_orderdetail_pay_detail_info_div"></div>
+        <div id="workbench_orderdetail_send_list_div"></div>
+        <div>
+            <p>收货人：<span id="workbench_orderdetail_consignee"></span></p>
+
+            <p>手机：<span id="workbench_orderdetail_cons_mobile"></span></p>
+
+            <p>收货地址：<span id="workbench_orderdetail_cons_address"></span></p>
+
+            <p>&nbsp</p>
+
+            <p>物流商：<span id="workbench_orderdetail_logistics_name"></span></p>
+
+            <p>发票类型：<span id="workbench_orderdetail_invoice_type"></span></p>
+        </div>
+        <div id="workbench_orderdetail_oper_div"></div>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->

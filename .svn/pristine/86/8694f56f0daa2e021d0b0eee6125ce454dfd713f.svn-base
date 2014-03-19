@@ -1,0 +1,31 @@
+<div data-role="page" id="workbench_changepass_page" data-url="workbench_changepass_page">
+    <div data-role="header" data-position="fixed">
+        <h1>修改密码</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+        <div>
+            <img alt="" src="img/workbench/password_lock.png">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="workbench_changepass_old_password">原密码：</label>
+            <input type="password" name="workbench_changepass_old_password" id="workbench_changepass_old_password">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="workbench_changepass_new_password">新密码：</label>
+            <input type="password" name="workbench_changepass_new_password" id="workbench_changepass_new_password">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="workbench_changepass_confirm_password">再次输入：</label>
+            <input type="password" name="workbench_changepass_confirm_password" id="workbench_changepass_confirm_password">
+        </div>
+        <div>
+            <p>&nbsp</p>
+            <p>
+                <a href="#" id="workbench_changepass_commit" data-role="button" data-icon="check" data-iconpos="left">提交</a>
+            </p>
+        </div>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->

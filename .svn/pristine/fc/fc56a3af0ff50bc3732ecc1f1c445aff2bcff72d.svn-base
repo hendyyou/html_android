@@ -1,0 +1,52 @@
+<div data-role="page" id="product_detail_page" data-url="product_detail_page">
+	<div data-role="header" data-position="fixed">
+		<h1>
+			<span id="detail_title"></span>
+		</h1>
+	</div>
+	<!-- /header -->
+	<div data-role="content" id="detailContentDiv">
+		<div class="swiper-container bottom-margin" align="center"
+			style="background-image: url('img/product/gallery_background.png');background-repeat:repeat-x;width:100%;height:140px;">
+			<div id="swiperWrapperDiv" class="swiper-wrapper padding-four-direction"></div>
+		</div>
+		<div id="product_gift_div" style="color: orange;"></div>
+		<div><ul  data-role="listview" data-inset="true" >
+			<li><a style="white-space: normal;" href="#" id="product_spec_div"></a>
+			</li>
+		</ul></div>
+		<div id="product_provide_div"></div>
+		<div class="top-margin" style="background-image: url('img/smalldivider.png');background-repeat:repeat-x; width:100%;">&nbsp;</div>
+		<div class="bottom-margin" id="product_custprice_div"></div>
+		<div class="bottom-margin" id="product_syscustprice_div"></div>
+		<div class="bottom-margin" id="product_adviceprice_div"></div>
+		<div id="product_actinfo_div"></div>
+		<div id="product_actcontent_div">
+			<span id="product_actcontent_span" style="color:#FF7430"></span>
+		</div>
+		<div data-role="fieldcontain">
+			<lable for="select-color">机身颜色：</lable>
+			<select name="select-color" id="select-color">
+			</select>
+		</div>
+		<div id="product_stock_div"></div>
+		<div data-role="fieldcontain">
+			<lable for="buyCount">购买数量：</lable>
+			<input name="buyCount" id="buyCount" type="number" maxlength="3" value="1">
+		</div>
+		<fieldset class="ui-grid-b">
+			<div class="ui-block-a" style="visibility: hidden;">
+				<button type="submit" data-theme="c"></button>
+			</div>
+			<div class="ui-block-b">
+				<button id="addCartBtn" type="submit" data-theme="a">加入购物车</button>
+			</div>
+			<div class="ui-block-c">
+				<button id="shouCang" type="submit" data-theme="b">收藏</button>
+			</div>
+		</fieldset>
+	</div>
+
+	<!-- /content -->
+</div>
+<!-- /page -->

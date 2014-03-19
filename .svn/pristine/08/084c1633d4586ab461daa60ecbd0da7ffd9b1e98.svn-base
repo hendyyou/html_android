@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget
+        id="com.digione.html5.zgb2b"
+        version="2.0.0"
+        xmlns="http://www.w3.org/ns/widgets">
+
+    <name>
+        天翼直供
+    </name>
+
+    <description>
+        直供项目HTML5版本
+    </description>
+
+    <author email="luoyj@digione.cn" href="http://www.digione.cn">
+        DigiOne Tech.
+    </author>
+
+    <access origin="*"/>
+
+    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
+    <content src="index_page.html"/>
+
+    <preference name="loglevel" value="DEBUG"/>
+    <preference name="loadingDialog" value="正在加载中......"/>
+    <!--
+    <preference name="loadingPageDialog" value="加载中..." />
+      <preference name="splashscreen" value="resourceName" />
+      <preference name="backgroundColor" value="0xFFF" />
+      <preference name="loadUrlTimeoutValue" value="20000" />
+      <preference name="InAppBrowserStorageEnabled" value="true" />
+      <preference name="disallowOverscroll" value="true" />
+    -->
+
+    <feature name="App">
+        <param
+                name="android-package"
+                value="org.apache.cordova.App"/>
+    </feature>
+    <!-- <feature name="Geolocation" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.GeoBroker" /> -->
+    <!-- </feature> -->
+    <feature name="Device">
+        <param
+                name="android-package"
+                value="org.apache.cordova.Device"/>
+    </feature>
+    <!-- <feature name="Accelerometer" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.AccelListener" /> -->
+    <!-- </feature> -->
+    <!-- <feature name="Compass" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.CompassListener" /> -->
+    <!-- </feature> -->
+    <!-- <feature name="Media" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.AudioHandler" /> -->
+    <!-- </feature> -->
+    <!-- <feature name="Camera" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.CameraLauncher" /> -->
+    <!-- </feature> -->
+    <!-- <feature name="Contacts" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.ContactManager" /> -->
+    <!-- </feature> -->
+    <!--     <feature name="File" > -->
+    <!--         <param -->
+    <!--             name="android-package" -->
+    <!--             value="org.apache.cordova.FileUtils" /> -->
+    <!--     </feature> -->
+    <feature name="NetworkStatus">
+        <param
+                name="android-package"
+                value="org.apache.cordova.NetworkManager"/>
+    </feature>
+    <feature name="Notification">
+        <param
+                name="android-package"
+                value="org.apache.cordova.Notification"/>
+    </feature>
+    <feature name="Storage">
+        <param
+                name="android-package"
+                value="org.apache.cordova.Storage"/>
+    </feature>
+    <!--     <feature name="FileTransfer" > -->
+    <!--         <param -->
+    <!--             name="android-package" -->
+    <!--             value="org.apache.cordova.FileTransfer" /> -->
+    <!--     </feature> -->
+    <!-- <feature name="Capture" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.Capture" /> -->
+    <!-- </feature> -->
+    <!-- <feature name="Battery" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.BatteryListener" /> -->
+    <!-- </feature> -->
+    <!--     <feature name="SplashScreen" > -->
+    <!--         <param -->
+    <!--             name="android-package" -->
+    <!--             value="org.apache.cordova.SplashScreen" /> -->
+    <!--     </feature> -->
+    <feature name="Echo">
+        <param
+                name="android-package"
+                value="org.apache.cordova.Echo"/>
+    </feature>
+    <!-- <feature name="Globalization" > -->
+    <!-- <param -->
+    <!-- name="android-package" -->
+    <!-- value="org.apache.cordova.Globalization" /> -->
+    <!-- </feature> -->
+    <feature name="InAppBrowser">
+        <param
+                name="android-package"
+                value="org.apache.cordova.InAppBrowser"/>
+    </feature>
+    <!-- Deprecated plugins element. Remove in 3.0 -->
+    <plugins>
+    </plugins>
+
+    <plugin
+            name="LoadingDialog"
+            value="com.digione.html5.zgb2b.plugins.LoadingDialog"/>
+    <plugin
+            name="BestpayPlugin"
+            value="com.digione.html5.zgb2b.plugins.BestpayPlugin"/>
+
+</widget>

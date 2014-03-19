@@ -1,0 +1,66 @@
+<div data-role="page" id="workbench_address_page" data-url="workbench_address_page">
+    <div data-role="header" data-position="fixed">
+        <h1>收货地址</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+        <div id="workbench_address_list_div"></div>
+        <p>&nbsp</p>
+
+        <div id="workbench_address_info_div">
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_consigneed">收货人：</label>
+                <input type="text" name="workbench_address_info_consigneed" id="workbench_address_info_consigneed">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_cons_mobile">手机：</label>
+                <input type="text" name="workbench_address_info_cons_mobile" id="workbench_address_info_cons_mobile">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_province">收货地址：</label>
+                <select name="workbench_address_info_province" id="workbench_address_info_province">
+                </select>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_city">&nbsp</label>
+                <select name="workbench_address_info_city" id="workbench_address_info_city" tabindex="-1">
+                </select>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_county">&nbsp</label>
+                <select name="workbench_address_info_county" id="workbench_address_info_county" tabindex="-1">
+                </select>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_cons_address">&nbsp</label>
+                <input id="workbench_address_info_cons_address" name="workbench_address_info_cons_address" type="text"
+                       value="">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_shop_name">仓库：</label>
+                <input type="text" name="workbench_address_info_shop_name" id="workbench_address_info_shop_name">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="workbench_address_info_logistics">物流商：</label>
+                <select name="workbench_address_info_logistics" id="workbench_address_info_logistics" tabindex="-1">
+                </select>
+            </div>
+        </div>
+        <div>
+            <p>&nbsp</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#" id="workbench_address_oper_update" data-role="button" data-icon="check"
+                       data-iconpos="left">修改</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#" id="workbench_address_oper_create" data-role="button" data-icon="check"
+                       data-iconpos="left">新增</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->

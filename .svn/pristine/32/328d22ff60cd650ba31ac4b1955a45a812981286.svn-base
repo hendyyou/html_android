@@ -1,0 +1,6 @@
+/** Automatically generated file. DO NOT MODIFY */
+package com.digione.html5.zgb2b;
+
+public final class BuildConfig {
+    public final static boolean DEBUG = true;
+}
